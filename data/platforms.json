@@ -1,0 +1,171 @@
+[
+ {
+  "id": "apify-store",
+  "name": "Apify Store",
+  "category": "marketplace (pay-per-event actors)",
+  "url": "https://apify.com/store",
+  "agentCanSignUp": "partial",
+  "signupNotes": "Email signup has image reCAPTCHA; rejects non-permanent email domains (agentmail.to) also via GitHub OAuth (reads GitHub primary email). GitHub OAuth with a real-domain email worked without CAPTCHA.",
+  "publishLimits": "5 Actor publications per day; output schema required; daily auto-test with default input.",
+  "payoutRail": "PayPal/wire/Wise to verified human; KYC (ID) required before payouts",
+  "humanRequired": [
+   "Store terms (18+ representation)",
+   "billing details",
+   "KYC"
+  ],
+  "aiAgentPolicy": "No rule against AI-built Actors found; disclosed in profile.",
+  "observed": "5 actors published 2026-11-11, 0 outside users by 2026-11-12; not returned by Store search API (total=5, items=0).",
+  "tested": "2026-11-11",
+  "evidence": "first-hand",
+  "sources": [
+   "https://docs.apify.com/platform/actors/publishing/monetize/monthly-payouts",
+   "https://docs.apify.com/legal/store-publishing-terms-and-conditions"
+  ]
+ },
+ {
+  "id": "apify-x402",
+  "name": "Apify x402 agentic payments",
+  "category": "agent payment rail",
+  "url": "https://docs.apify.com/integrations/x402",
+  "agentCanSignUp": "n/a (buyers need no account)",
+  "payoutRail": "Buyer agents prepay USDC (Base/Solana) for an Apify token; sellers paid via normal Apify payouts",
+  "humanRequired": [
+   "seller payouts as above"
+  ],
+  "observed": "PPE Actors with limited permissions are eligible automatically.",
+  "tested": "2026-11-11",
+  "evidence": "docs",
+  "sources": [
+   "https://docs.apify.com/integrations/x402"
+  ]
+ },
+ {
+  "id": "superteam-earn",
+  "name": "Superteam Earn (agent API)",
+  "category": "bounty board",
+  "url": "https://superteam.fun/earn",
+  "agentCanSignUp": "yes (agent registration via API)",
+  "payoutRail": "Rewards to the claiming human's Superteam profile (Solana); some listings need KYC",
+  "humanRequired": [
+   "claim agent with claim code from a completed talent profile"
+  ],
+  "observed": "Public listings API: 11 open listings on 2026-11-11, 1 AGENT_ALLOWED (video, 131 submissions); 2026-11-12: 10 open, still 1 agent-allowed (146 submissions).",
+  "tested": "2026-11-12",
+  "evidence": "first-hand (public API)",
+  "sources": [
+   "https://superteam.fun/api/listings?take=100"
+  ]
+ },
+ {
+  "id": "taskmarket",
+  "name": "Daydreams TaskMarket",
+  "category": "agent task board (USDC escrow)",
+  "url": "https://taskmarket.dev",
+  "agentCanSignUp": "yes (wallet + ERC-8004 identity)",
+  "payoutRail": "USDC escrow to worker wallet, chainId 4217 on observed tasks",
+  "humanRequired": [],
+  "observed": "Public API 2026-11-12: 20 tasks, 19 completed, rewards $0.35-$1.75, 4-23 submissions each.",
+  "tested": "2026-11-12",
+  "evidence": "first-hand (public API)",
+  "sources": [
+   "https://taskmarket.dev/api/tasks"
+  ]
+ },
+ {
+  "id": "metaculus-futureeval",
+  "name": "Metaculus bot tournaments",
+  "category": "prize competition",
+  "url": "https://www.metaculus.com/futureeval/participate/",
+  "agentCanSignUp": "no (site blocks automated browsers; bot account created by a human)",
+  "payoutRail": "Prizes to verified human; code/description disclosure for prize eligibility",
+  "humanRequired": [
+   "account creation",
+   "prize receipt"
+  ],
+  "observed": "'Market Pulse' ~$7k, bot-eligible (checked by human 2026-11-12). General rules: bots ineligible unless tournament rules allow.",
+  "tested": "2026-11-12",
+  "evidence": "human-verified + rules page",
+  "sources": [
+   "https://www.metaculus.com/tournament-rules/"
+  ]
+ },
+ {
+  "id": "devto",
+  "name": "DEV Community (dev.to)",
+  "category": "publishing",
+  "url": "https://dev.to",
+  "agentCanSignUp": "yes (GitHub OAuth, no CAPTCHA observed)",
+  "payoutRail": "none",
+  "humanRequired": [],
+  "aiAgentPolicy": "AI-generated articles allowed if disclosed (#abotwrotethis); must not promote own business/program; no AI-generated comments; money-soliciting posts can be banned.",
+  "observed": "Onboarding pre-selects ~14 accounts to follow (opt-out).",
+  "tested": "2026-11-12",
+  "evidence": "first-hand",
+  "sources": [
+   "https://dev.to/guidelines-for-ai-assisted-articles-on-dev"
+  ]
+ },
+ {
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "category": "LLM inference",
+  "url": "https://openrouter.ai",
+  "agentCanSignUp": "yes via GitHub OAuth (email signup shows hCaptcha)",
+  "payoutRail": "n/a (cost side)",
+  "humanRequired": [],
+  "observed": "Free tier without payment method; ~13 ':free' models; free requests rate-limited (429s common).",
+  "tested": "2026-11-12",
+  "evidence": "first-hand",
+  "sources": [
+   "https://openrouter.ai/api/v1/models"
+  ]
+ },
+ {
+  "id": "github",
+  "name": "GitHub",
+  "category": "identity / code hosting",
+  "url": "https://github.com",
+  "agentCanSignUp": "untested (account created by the human)",
+  "payoutRail": "GitHub Sponsors (human)",
+  "humanRequired": [
+   "account creation"
+  ],
+  "aiAgentPolicy": "Machine accounts allowed with a responsible human.",
+  "observed": "Login from new device triggers emailed verification code (agent can read it if it controls the inbox).",
+  "tested": "2026-11-11",
+  "evidence": "first-hand",
+  "sources": [
+   "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"
+  ]
+ },
+ {
+  "id": "agentmail",
+  "name": "AgentMail",
+  "category": "email for agents",
+  "url": "https://agentmail.to",
+  "agentCanSignUp": "human creates org; agent uses API key",
+  "payoutRail": "n/a",
+  "humanRequired": [
+   "account"
+  ],
+  "observed": "Inbox-scoped key can read/send. agentmail.to addresses rejected as 'non-permanent' by Apify.",
+  "tested": "2026-11-11",
+  "evidence": "first-hand",
+  "sources": [
+   "https://agentmail.to"
+  ]
+ },
+ {
+  "id": "x402-network",
+  "name": "x402 (agent payments, network-wide)",
+  "category": "agent payment rail",
+  "url": "https://x402.org",
+  "observed": "Identifiable agent payment volume estimated ~$5-11k/month network-wide (TRM Labs, 2026); about half of transaction volume reported artificial.",
+  "tested": "2026-11-10",
+  "evidence": "reported",
+  "sources": [
+   "https://www.spotedcrypto.com/trm-labs-x402-ai-agent-payments-report-2026/",
+   "https://forkast.news/half-of-x402s-transaction-volume-is-artificial-the-infrastructure-layer-keeps-building-anyway/"
+  ]
+ }
+]
