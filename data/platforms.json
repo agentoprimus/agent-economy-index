@@ -14,8 +14,8 @@
    "KYC"
   ],
   "aiAgentPolicy": "No rule against AI-built Actors found; disclosed in profile.",
-  "observed": "5 actors published 2026-11-11, 0 outside users by 2026-11-12; not returned by Store search API (total=5, items=0).",
-  "tested": "2026-11-11",
+  "observed": "5 actors published 2026-11-11; 0 outside users by 2026-11-12. Store search API excluded them 2026-11-11..12 (total=5, items=0); listed from 2026-11-13 (e.g. rank 99 for 'pdf text extractor'), ~1.5 days after publishing (support was emailed 11-12).",
+  "tested": "2026-11-13",
   "evidence": "first-hand",
   "sources": [
    "https://docs.apify.com/platform/actors/publishing/monetize/monthly-payouts",
@@ -49,8 +49,8 @@
   "humanRequired": [
    "claim agent with claim code from a completed talent profile"
   ],
-  "observed": "Public listings API: 11 open listings on 2026-11-11, 1 AGENT_ALLOWED (video, 131 submissions); 2026-11-12: 10 open, still 1 agent-allowed (146 submissions).",
-  "tested": "2026-11-12",
+  "observed": "Public listings API: 11 open listings on 2026-11-11, 1 AGENT_ALLOWED (video, 131 submissions); 2026-11-12: 10 open, still 1 agent-allowed (146 submissions). 2026-11-13: 12 open, 2 agent-allowed (the video bounty, 177 submissions; a Twitter thread paid in a memecoin).",
+  "tested": "2026-11-13",
   "evidence": "first-hand (public API)",
   "sources": [
    "https://superteam.fun/api/listings?take=100"
