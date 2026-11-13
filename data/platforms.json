@@ -167,5 +167,167 @@
    "https://www.spotedcrypto.com/trm-labs-x402-ai-agent-payments-report-2026/",
    "https://forkast.news/half-of-x402s-transaction-volume-is-artificial-the-infrastructure-layer-keeps-building-anyway/"
   ]
+ },
+ {
+  "id": "algora",
+  "name": "Algora / GitHub issue bounties",
+  "category": "code bounties",
+  "url": "https://algora.io",
+  "agentCanSignUp": "via GitHub account",
+  "payoutRail": "Bounty paid on merged PR (Stripe/Algora)",
+  "humanRequired": [
+   "payout identity (likely)"
+  ],
+  "aiAgentPolicy": "Many maintainers ban or restrict AI-generated PRs; several projects ended bounty programs due to AI submissions (curl, Turso, Tuist).",
+  "observed": "Popular issues reportedly receive dozens of AI-agent PRs within hours.",
+  "tested": "2026-11-10",
+  "evidence": "reported",
+  "sources": [
+   "https://marchantdev.github.io/blog/bot-farms.html",
+   "https://community.tuist.dev/t/discountinuing-the-bounty-program/585"
+  ]
+ },
+ {
+  "id": "agentstore",
+  "name": "AgentStore (Claude Code plugins/skills)",
+  "category": "skills marketplace",
+  "url": "https://github.com/techgangboss/agentstore",
+  "agentCanSignUp": "untested",
+  "payoutRail": "80% to seller, USDC to any wallet (per project's own posts)",
+  "humanRequired": [],
+  "observed": "No independent sales data found.",
+  "tested": "2026-11-11",
+  "evidence": "reported",
+  "sources": [
+   "https://dev.to/techgangboss/how-to-monetize-your-claude-code-plugin-with-usdc-50hf"
+  ]
+ },
+ {
+  "id": "agensi",
+  "name": "Agensi (skills marketplace)",
+  "category": "skills marketplace",
+  "url": "https://www.agensi.io/sell",
+  "agentCanSignUp": "untested",
+  "payoutRail": "70% of net per sale; payout via Stripe or USDC (per seller page)",
+  "humanRequired": [],
+  "observed": "Seller page: listing goes through 'checks + AI + human review'; MCP distribution; one-time sales.",
+  "tested": "2026-11-13",
+  "evidence": "first-hand (public page)",
+  "sources": [
+   "https://www.agensi.io/sell"
+  ]
+ },
+ {
+  "id": "virtuals-acp",
+  "name": "Virtuals ACP (agent-to-agent commerce)",
+  "category": "agent marketplace",
+  "url": "https://app.virtuals.io",
+  "agentCanSignUp": "untested",
+  "payoutRail": "On-chain, agents tied to their own tokens",
+  "humanRequired": [],
+  "aiAgentPolicy": "Agent tokens = speculative asset exposure.",
+  "observed": "Reported revenue fell ~95% and is concentrated in <0.3% of agents.",
+  "tested": "2026-11-11",
+  "evidence": "reported",
+  "sources": [
+   "https://forkast.news/the-machine-as-buyer-virtuals-acp-and-the-evaluator-problem/"
+  ]
+ },
+ {
+  "id": "coinbase-bazaar",
+  "name": "Coinbase x402 Bazaar / Agentic.Market",
+  "category": "agent API directory",
+  "url": "https://docs.cdp.coinbase.com/x402/bazaar",
+  "agentCanSignUp": "needs CDP account (human) for facilitator",
+  "payoutRail": "USDC on Base to seller wallet",
+  "humanRequired": [
+   "CDP account"
+  ],
+  "observed": "Services auto-indexed after first settled payment via CDP facilitator.",
+  "tested": "2026-11-11",
+  "evidence": "docs",
+  "sources": [
+   "https://docs.cdp.coinbase.com/x402/bazaar.md"
+  ]
+ },
+ {
+  "id": "base-builder-grants",
+  "name": "Base Builder Grants",
+  "category": "retroactive grants",
+  "url": "https://paragraph.xyz/@grants.base.eth/calling-based-builders",
+  "agentCanSignUp": "nomination form",
+  "payoutRail": "1-5 ETH, retroactive",
+  "humanRequired": [
+   "application/nomination (contact)"
+  ],
+  "observed": "Mostly sourced by Base; weekly builder rewards reportedly ended Jan 2026.",
+  "tested": "2026-11-11",
+  "evidence": "reported",
+  "sources": [
+   "https://paragraph.xyz/@grants.base.eth/calling-based-builders"
+  ]
+ },
+ {
+  "id": "datarade",
+  "name": "Datarade (data marketplace)",
+  "category": "data marketplace",
+  "url": "https://providers.datarade.ai/apply",
+  "agentCanSignUp": "no (requires a registered business)",
+  "payoutRail": "marketplace payouts; free plan takes 30%",
+  "humanRequired": [
+   "legal business entity"
+  ],
+  "tested": "2026-11-13",
+  "evidence": "first-hand (public page)",
+  "sources": [
+   "https://providers.datarade.ai/apply"
+  ],
+  "observed": "Provider page: 'We welcome legally registered businesses'; free plan $0/yr + 30% commission; applications reviewed in 1-2 business days."
+ },
+ {
+  "id": "substack",
+  "name": "Substack",
+  "category": "paid newsletter",
+  "url": "https://substack.com",
+  "agentCanSignUp": "untested",
+  "payoutRail": "Stripe (human)",
+  "humanRequired": [
+   "Stripe"
+  ],
+  "aiAgentPolicy": "Added AI-content detection (Jul 2026); reported reader preference for human writing.",
+  "tested": "2026-11-11",
+  "evidence": "reported",
+  "sources": [
+   "https://www.axios.com/2026/07/23/substack-subscribers-ai-generated-content-pangram"
+  ]
+ },
+ {
+  "id": "code4rena",
+  "name": "Code4rena audit contests",
+  "category": "security contests",
+  "url": "https://code4rena.com",
+  "agentCanSignUp": "untested",
+  "payoutRail": "Prize pools (KYC for payouts)",
+  "humanRequired": [
+   "KYC"
+  ],
+  "aiAgentPolicy": "Guidelines treat LLM-generated low-quality findings as spam.",
+  "tested": "2026-11-11",
+  "evidence": "docs",
+  "sources": [
+   "https://docs.code4rena.com/competitions/submission-guidelines"
+  ]
+ },
+ {
+  "id": "product-hunt-api",
+  "name": "Product Hunt API (as a data source)",
+  "category": "data source",
+  "url": "https://www.producthunt.com/v2/docs",
+  "aiAgentPolicy": "API off-limits for commercial use without permission; ToS prohibits scraping.",
+  "tested": "2026-11-10",
+  "evidence": "docs",
+  "sources": [
+   "https://www.producthunt.com/v2/docs"
+  ]
  }
 ]
