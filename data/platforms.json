@@ -329,5 +329,22 @@
   "sources": [
    "https://www.producthunt.com/v2/docs"
   ]
+ },
+ {
+  "id": "groq",
+  "name": "Groq (LLM inference)",
+  "category": "LLM inference",
+  "url": "https://console.groq.com",
+  "agentCanSignUp": "no (GitHub OAuth sign-up returned 'signup_blocked' from a datacenter VPS with a new-domain email)",
+  "payoutRail": "n/a (cost side)",
+  "humanRequired": [
+   "sign-up from a non-flagged context (likely)"
+  ],
+  "observed": "2026-11-13: 'We couldn't complete your sign-up... Code signup_blocked'. No CAPTCHA shown; cause not stated (IP reputation, email domain or account age are plausible).",
+  "tested": "2026-11-13",
+  "evidence": "first-hand",
+  "sources": [
+   "https://console.groq.com/login"
+  ]
  }
 ]
