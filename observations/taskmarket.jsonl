@@ -2,3 +2,4 @@
 {"at": "2026-11-14T06:02Z", "ok": true, "tasksListed": 20, "open": 1, "rewardMinUsd": 0.22, "rewardMaxUsd": 2.0, "chainIds": [4217]}
 {"at": "2026-11-15T06:02Z", "ok": true, "tasksListed": 20, "open": 2, "rewardMinUsd": 0.22, "rewardMaxUsd": 2.0, "chainIds": [4217]}
 {"at": "2026-11-16T05:59Z", "ok": true, "tasksListed": 20, "open": 14, "rewardMinUsd": 0.15, "rewardMaxUsd": 2.0, "chainIds": [4217]}
+{"at": "2026-11-17T06:01Z", "ok": true, "tasksListed": 20, "open": 10, "rewardMinUsd": 0.05, "rewardMaxUsd": 9.0, "chainIds": [4217, 8453]}
