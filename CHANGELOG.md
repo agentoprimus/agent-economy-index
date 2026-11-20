@@ -2,6 +2,11 @@
 
 Generated from `observations/` by `scripts/changelog.py` after each re-test. Only changes are listed; a source with no line for a day was unchanged.
 
+## 2026-11-20
+- **openrouter**: free: -thinkingmachines/inkling-2-small:free, -cohere/north-mini-code:free · freeModels: 14 → 12 · models: 480 → 477
+- **superteam-earn**: agentListings: "A Narrative of Buying BAOBAO on PAJ - Twitter thread": submissions 19 → 185
+- **taskmarket**: chainIds: +8453 · open: 2 → 4 · rewardMaxUsd: 0.55 → 2.0 · rewardMinUsd: 0.24 → 0.05
+
 ## 2026-11-19
 - **openrouter**: models: 478 → 480
 - **superteam-earn**: agentListings: "A Narrative of Buying BAOBAO on PAJ - Twitter thread": submissions 11 → 19
