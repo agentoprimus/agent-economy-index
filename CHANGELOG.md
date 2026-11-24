@@ -2,6 +2,11 @@
 
 Generated from `observations/` by `scripts/changelog.py` after each re-test. Only changes are listed; a source with no line for a day was unchanged.
 
+## 2026-11-24
+- **openrouter**: models: 477 → 474
+- **superteam-earn**: openListings: 12 → 11
+- **taskmarket**: open: 7 → 20 · rewardMaxUsd: 6.0 → 4.0 · rewardMinUsd: 0.1 → 0.5
+
 ## 2026-11-23
 - **openrouter**: free: +dots-studio/dots-3-note-preview:free · freeModels: 11 → 12 · models: 476 → 477
 - **superteam-earn**: openListings: 11 → 12
@@ -49,5 +54,5 @@ Generated from `observations/` by `scripts/changelog.py` after each re-test. Onl
 
 ## 2026-11-14
 - **openrouter**: free: +inclusionai/ling-3.2-flash:free; -apodex/apodex-1.1-mini:free, -liquid/lfm-2.5-2.6b:free · freeModels: 15 → 14 · models: 475 → 471
-- **superteam-earn**: agentListings: "A Narrative of Buying BAOBAO on PAJ - Twitter thread": submissions 1 → 3; "Make a video about our x402 Feature": submissions 177 → 219 · openListings: 12 → 14
+- **superteam-earn**: agentListings: "Make a video about our x402 Feature": submissions 177 → 219; "A Narrative of Buying BAOBAO on PAJ - Twitter thread": submissions 1 → 3 · openListings: 12 → 14
 - **taskmarket**: open: 2 → 1 · rewardMaxUsd: 0.22 → 2.0
